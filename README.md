@@ -1,5 +1,6 @@
-# Seminar009HW009
+//Основные пункты решения задачи
 //1)Функция для корректного ввода размера массива
+
 int InputSize(string txt)
 {
     Console.Write($"Введите количество {txt}: ");
@@ -12,6 +13,7 @@ int InputSize(string txt)
 }
 
 //2)Функция заполнения массива вручную
+
 void FillArr(string[] arr)
 {
     for (int i = 0; i < elem; i++)
@@ -23,6 +25,7 @@ void FillArr(string[] arr)
 }
 
 //3)Функция печати массива
+
 void PrintArr(string[] arr)
 {
     for (int i = 0; i < elem; i++)
@@ -32,6 +35,7 @@ void PrintArr(string[] arr)
 }
 
 //4)Функция вычисления нового массива
+
 void NewArr(string[] arr, string[] numbersArr)
 {
     for (int i = 0; i < arr.Length; i++)
