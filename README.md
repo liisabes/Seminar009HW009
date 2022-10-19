@@ -10,6 +10,7 @@ int InputSize(string txt)
     }
     return size;
 }
+
 //2)Функция заполнения массива вручную
 void FillArr(string[] arr)
 {
@@ -20,6 +21,7 @@ void FillArr(string[] arr)
 
     }
 }
+
 //3)Функция печати массива
 void PrintArr(string[] arr)
 {
@@ -28,6 +30,7 @@ void PrintArr(string[] arr)
         Console.WriteLine(arr[i]);
     }
 }
+
 //4)Функция вычисления нового массива
 void NewArr(string[] arr, string[] numbersArr)
 {
